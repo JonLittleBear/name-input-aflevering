@@ -4,7 +4,8 @@ function sayHello() {
     document.querySelector("#navn").value +
     ", du er " +
     document.querySelector("#alder").value +
-    " år gammel";
+    " år gammel. Din mail er: " +
+    document.querySelector("#mail").value;
 }
 
 document.querySelector("button").addEventListener("click", sayHello);
